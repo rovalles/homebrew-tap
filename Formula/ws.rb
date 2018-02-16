@@ -6,6 +6,12 @@ class Ws < Formula
   version "2"
 
   def install
-    bin.install "ws.sh" => "ws"
+    bin.install "ws.sh"
+  end
+
+  def caveats; <<~EOS
+    Add the following line to your ~/.bash_profile:
+      [ -f #{etc}/ws.sh ] && . #{etc}/ws.sh
+    EOS
   end
 end

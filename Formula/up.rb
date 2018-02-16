@@ -6,6 +6,6 @@ class Up < Formula
   version "1"
 
   def install
-    bin.install "up.sh" => "up"
+    bin.install "up.sh"
   end
 end
