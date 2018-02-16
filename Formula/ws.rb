@@ -6,6 +6,6 @@ class Ws < Formula
   version "2"
 
   def install
-    bin.install "ws"
+    bin.install "ws.sh"
   end
 end
