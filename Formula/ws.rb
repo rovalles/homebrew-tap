@@ -10,8 +10,8 @@ class Ws < Formula
   end
 
   def caveats; <<~EOS
-    Add the following line to your ~/.bash_profile:
-      [ -f #{etc}/ws.sh ] && . #{etc}/ws.sh
+      Source File:
+      [ -f #{prefix}/bin/ws ] && . #{prefix}/bin/ws
     EOS
   end
 end

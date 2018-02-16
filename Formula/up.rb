@@ -8,4 +8,10 @@ class Up < Formula
   def install
     bin.install "up.sh"
   end
+
+  def caveats; <<~EOS
+      Source File:
+      [ -f #{prefix}/bin/up ] && . #{prefix}/bin/up
+    EOS
+  end
 end
