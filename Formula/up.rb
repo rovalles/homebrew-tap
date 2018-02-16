@@ -6,7 +6,7 @@ class Up < Formula
   version "1"
 
   def install
-    bin.install "up.sh"
+    bin.install "up.sh" => "up"
     chmod 777, "#{prefix}/bin/up.sh"
   end
 end
