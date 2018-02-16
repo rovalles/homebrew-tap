@@ -7,6 +7,6 @@ class Ws < Formula
 
   def install
     bin.install "ws.sh"
-    chmod 775, "up.sh"
+    chmod +x "up.sh"
   end
 end
