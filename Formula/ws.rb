@@ -7,6 +7,6 @@ class Ws < Formula
 
   def install
     bin.install "ws.sh"
-    chmod 777 "ws.sh"
+    chmod 0777, "ws.sh"
   end
 end
