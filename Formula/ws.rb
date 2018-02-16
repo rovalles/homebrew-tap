@@ -11,7 +11,7 @@ class Ws < Formula
 
   def caveats; <<~EOS
       Source File:
-      [ -f #{prefix}/bin/ws ] && . #{prefix}/bin/ws
+      [ -f #{HOMEBREW_PREFIX}/bin/ws ] && . #{HOMEBREW_PREFIX}/bin/ws
     EOS
   end
 end

@@ -11,7 +11,7 @@ class Up < Formula
 
   def caveats; <<~EOS
       Source File:
-      [ -f #{prefix}/bin/up ] && . #{prefix}/bin/up
+      [ -f #{HOMEBREW_PREFIX}/bin/up ] && . #{HOMEBREW_PREFIX}/bin/up
     EOS
   end
 end
