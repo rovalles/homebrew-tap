@@ -1,4 +1,4 @@
-class Foobar < Formula
+class Ws < Formula
   desc "Tab complete projects in your workspace"
   homepage "https://github.com/rovalles/ws"
   url "https://github.com/rovalles/ws/tar/develop"
