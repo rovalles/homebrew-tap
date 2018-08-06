@@ -3,7 +3,7 @@ class Bender < Formula
   homepage "https://github.com/rovalles/bender"
   url "https://github.com/rovalles/bender/tarball/master"
   sha256 "413ac639764ffe79fb2959887524a67711ac60bef638564c572cf84558e5360d"
-  version "1"
+  version "1.1"
 
   def install
     bin.install "bender.sh"
