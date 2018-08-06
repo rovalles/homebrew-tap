@@ -2,7 +2,7 @@ class Bender < Formula
   desc "My way of loading my dotfiles."
   homepage "https://github.com/rovalles/bender"
   url "https://github.com/rovalles/bender/tarball/master"
-  sha256 "aedda605578fe269d0ccd5fb3a2ea274b9bbc214c00a30bc9dad638bb3d7266d"
+  sha256 "96a3319b9a301e009339e26c02274afb18e93096d89546027b86cef79595b756"
   version "1"
 
   def install
