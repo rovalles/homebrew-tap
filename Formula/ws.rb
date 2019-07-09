@@ -2,7 +2,7 @@ class Ws < Formula
   desc "Tab complete projects in your workspace"
   homepage "https://github.com/rovalles/ws"
   url "https://github.com/rovalles/ws/tarball/develop"
-  sha256 "b805e462cd78659167e3095a2657bfa1dde43a8cf2cc9eaf03489dfcd06e7192"
+  sha256 "6123dcd0b6ea91d91b0f5cc0dfe734d5aaf48deb0ec89c4ca4c73c46931b8bd3"
 
   version "3"
 
