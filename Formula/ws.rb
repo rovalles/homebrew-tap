@@ -1,8 +1,8 @@
 class Ws < Formula
   desc "Tab complete projects in your workspace"
   homepage "https://github.com/rovalles/ws"
-  url "https://github.com/rovalles/ws/tarball/develop"
-  sha256 "3cbc0c73164a71a82b9b2118447996264d3c1c0ed16fac0a91216ada714ad2df"
+  head "https://github.com/rovalles/ws", :branch => "develop"
+
   version "2"
 
   def install
