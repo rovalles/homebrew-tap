@@ -4,7 +4,7 @@ class Ws < Formula
   url "https://github.com/rovalles/ws/tarball/develop"
   sha256 "b805e462cd78659167e3095a2657bfa1dde43a8cf2cc9eaf03489dfcd06e7192"
 
-  version "2"
+  version "3"
 
   def install
     bin.install "ws.sh"
