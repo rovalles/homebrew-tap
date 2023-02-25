@@ -1,9 +1,9 @@
 class Bender < Formula
   desc "My way of loading my dotfiles."
   homepage "https://github.com/rovalles/bender"
-  url "https://github.com/rovalles/bender/tarball/master"
-  sha256 "6a0fe94ed819102fa2b169615f1d877e5dfe8be3c8e84a037339b2a4c1f22fea"
-  version "3.0"
+  url "https://github.com/rovalles/bender/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "309727c68d451aae1c23d1390d384066c729602cb8067c2b322970fde9fd3ac1"
+  version "4.0"
 
   def install
     bin.install "bender.sh"
